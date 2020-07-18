@@ -1,0 +1,41 @@
+body {
+	display: flex;
+	flex-direction: column;
+	font-family: helvetica, sansserif;
+	align-items: center;
+	justify-content: center;
+}
+
+.create_button {
+	position: relative;
+	height: 75px;
+	width: 150px;
+	background-color: gray;
+	color: white;
+}
+
+.wrapper {
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	height: 400px;
+	width: 400px;
+	border: 60px solid red;
+	margin: 50px;
+}
+
+.cell {
+	position: relative;
+	background-color: : lightgray;
+}
+
+.cell_fill {
+	position: relative;
+	background-color: black;
+}
+
+.cell:hover {
+	background-color: black;
+}
+
