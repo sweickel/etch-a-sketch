@@ -12,6 +12,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	bottom: 0px;
+	z-index: 1;
 }
 
 .nav div {
@@ -47,9 +48,10 @@ body {
 .wrapper {
 	position: relative;
 	display: grid;	
-	height: 400px;
-	width: 600px;	
+	height: 375px;
+	width: 640px;	
 	background-color: lightgray;
+	z-index: 10;
 }
 
 .cell {
@@ -71,6 +73,9 @@ body {
 	padding: 0px;
 	margin: 0px;
 	border: 100px solid red;
+	border-bottom: 130px solid red;
+
+	box-shadow: 2px 2px 2px black;
 }
 
 .container {
